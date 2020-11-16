@@ -1,0 +1,327 @@
+:root{
+    --bg-color: #ffffff;
+
+}
+
+* {
+    direction: ltr;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300px;
+    -webkit-appearance:     none;
+    -moz-appearance:        none;
+    -ms-appearance:         none;
+    -o-appearance:          none;
+    appearance:             none;
+    margin: 0px 10px 0px 10px;
+    
+}
+body{
+    margin: 0;
+    margin-top: 5px;
+    background-color: var(--bg-color);
+}
+
+.sidebar{
+    height: 98%; /* Full-height: remove this if you want "auto" height */
+    width: 65px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: white; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 2px;
+    padding-bottom: 0px;
+    border: solid 2px whitesmoke;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+
+
+/* Start of the sidebar styling*/
+
+.side-header{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 5px;
+   margin-bottom: 20px;
+}
+.side-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+ 
+}
+.side-header img{
+    width: 180%;
+}
+.side-content img{
+    width: 160%;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+/* Start of topbar styling*/
+.topbar{
+    width: 99%;
+    height: 50px;
+    background-color: white;  
+
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: white; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 2px;
+    padding-bottom: 0px;
+    border: solid 2px whitesmoke;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.topbar-container{
+    padding: 2px 2px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.tophalf{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.tophalf img{    
+    width: 5%;
+    height: 30px;
+    margin-top: 4px;
+    margin-left: 60px;
+}
+
+.txt-box{
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 260px;
+    margin-right: 20px;
+
+    background-color: white;
+    border-radius: 5px;
+}
+.search-input{
+    height: 30px;
+    width: 100%;
+    border: 0px;
+    padding-top: 7px;
+    margin-top: 0px;
+    background-size: 5px;
+}
+.search-icon{
+    color: grey;
+    margin-top: 10px;
+}
+.bottom-half{
+    margin-left: auto;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  
+
+}
+.dark-mode {
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+    background-color: black;
+
+
+}
+.light-mode {
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+    background-color: white;
+}
+.tab-profile{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    flex-wrap: nowrap;
+    flex-direction: column;
+   
+}
+.profile-container{
+    width: 50px;
+}
+.person-image{
+    width:35px;
+    height: 35px;
+    border-radius: 20px;
+    margin-left: auto;
+}
+.person-image img{
+   display: block;
+}
+
+.drop-down-info{
+   text-align: left;
+}
+
+
+.person-info{
+   margin-left: -40px;
+   margin-top: 10px;
+   border: none;
+}
+
+/* Start content styling*/
+.content-container{
+   
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+    margin: 70px auto 0px 65px;
+
+}
+.wdgt-txt{
+    padding-bottom: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+}
+.wdgt-txt h1{
+    font-weight: 400;
+ 
+}
+.dd-info-case{
+    margin-left: auto;
+    margin-top: 10px;
+}
+.case-info{
+    width: 150px;
+    height: 30px;
+    border-radius: 4px;
+    
+}
+.case-info, .info-case{
+    font-size: medium;
+}
+.content-top{
+    background-color: white;
+    height: 200px;
+}
+
+.content-top h4{
+    padding: 20px;
+    font-weight: 300 !important;
+}
+.widget-opened{
+   
+   
+}
+.tble-container{
+    width: 100%;
+    display: flex;
+}
+
+th {
+    border-right: 1px solid whitesmoke;
+  
+    padding: 0px 75px;
+  }
+  tr{
+   
+  }
+.wdgt-tble {
+    
+    
+
+}
+.wdgt-image {
+    width: 45px;
+    height: 60px;
+ 
+}
+.wdgt-text{
+    display: flex;
+    justify-content: space-around;   
+}
+.wdgt-text td{
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-top: 20px;
+    margin-right: 30px;
+    font-size: small;
+}
+
+.content-bottom{
+    margin-top: 35px;
+    margin-left: 70px;
+    width: 98%;
+    height: 150px;
+    background-color: whitesmoke;
+    display: flex;                  /* establish flex container */
+    flex-direction: row;            /* default value; can be omitted */
+    flex-wrap: nowrap;              /* default value; can be omitted */
+    justify-content: space-around; /* switched from default (flex-start, see below) */
+
+}
+
+.first-block{
+    background-color: white;
+    width: 30%;
+}
+.second-block{
+    background-color: white;
+    width: 30%;
+}
+.third-block{
+    background-color: royalblue;
+    width: 30%;
+}
+.txt-cases{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.number-cases{
+    font-family: 'Roboto', sans-serif;
+}
+.txt-cases{
+    margin: 30px;
+}
+.number-cases{
+    margin: 10px 0px 20px 15px;
+    font-size: 40px ;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+.txt-cases-v2{
+    margin: 30px;
+    color: white;
+}
+.number-cases-v2{
+    margin: 10px 0px 20px 15px;
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.warning-image{
+    width: 70px;
+    height: 70px;
+}
+.box-image{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
