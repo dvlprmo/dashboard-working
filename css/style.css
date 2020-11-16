@@ -265,13 +265,13 @@ th {
 .content-bottom{
     margin-top: 35px;
     margin-left: 70px;
-    width: 96%;
-    height: 200px;
+    width: 98%;
+    height: 150px;
     background-color: whitesmoke;
     display: flex;                  /* establish flex container */
     flex-direction: row;            /* default value; can be omitted */
     flex-wrap: nowrap;              /* default value; can be omitted */
-    justify-content: space-between; /* switched from default (flex-start, see below) */
+    justify-content: space-around; /* switched from default (flex-start, see below) */
 
 }
 
@@ -286,4 +286,42 @@ th {
 .third-block{
     background-color: royalblue;
     width: 30%;
+}
+.txt-cases{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.number-cases{
+    font-family: 'Roboto', sans-serif;
+}
+.txt-cases{
+    margin: 30px;
+}
+.number-cases{
+    margin: 10px 0px 20px 15px;
+    font-size: 40px ;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+.txt-cases-v2{
+    margin: 30px;
+    color: white;
+}
+.number-cases-v2{
+    margin: 10px 0px 20px 15px;
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.warning-image{
+    width: 70px;
+    height: 70px;
+}
+.box-image{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
