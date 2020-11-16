@@ -1,0 +1,223 @@
+:root{
+    --bg-color: #ffffff;
+
+}
+
+* {
+    direction: ltr;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300px;
+    -webkit-appearance:     none;
+    -moz-appearance:        none;
+    -ms-appearance:         none;
+    -o-appearance:          none;
+    appearance:             none;
+    margin: 0px 10px 0px 10px;
+    
+}
+body{
+    margin: 0;
+    margin-top: 5px;
+    background-color: var(--bg-color);
+}
+
+.sidebar{
+    height: 98%; /* Full-height: remove this if you want "auto" height */
+    width: 65px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: white; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 2px;
+    padding-bottom: 0px;
+    border: solid 2px whitesmoke;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+
+
+/* Start of the sidebar styling*/
+
+.side-header{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 5px;
+   margin-bottom: 20px;
+}
+.side-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+ 
+}
+.side-header img{
+    width: 170%;
+}
+.side-content img{
+    width: 140%;
+    margin-bottom: 10px;
+}
+
+/* Start of topbar styling*/
+.topbar{
+    width: 99%;
+    height: 50px;
+    background-color: white;  
+
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: white; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 2px;
+    padding-bottom: 0px;
+    border: solid 2px whitesmoke;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.topbar-container{
+    padding: 2px 2px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.tophalf{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.tophalf img{    
+    width: 5%;
+    height: 30px;
+    margin-top: 4px;
+    margin-left: 60px;
+}
+
+.txt-box{
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 260px;
+    margin-right: 20px;
+
+    background-color: white;
+    border-radius: 5px;
+}
+.search-input{
+    height: 30px;
+    width: 100%;
+    border: 0px;
+    padding-top: 7px;
+    margin-top: 0px;
+    background-size: 5px;
+}
+.search-icon{
+    color: grey;
+    margin-top: 10px;
+}
+.bottom-half{
+    margin-left: auto;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  
+
+}
+.dark-mode {
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+    background-color: black;
+
+
+}
+.light-mode {
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+    background-color: white;
+}
+.tab-profile{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    flex-wrap: nowrap;
+    flex-direction: column;
+   
+}
+.profile-container{
+    width: 50px;
+}
+.person-image{
+    width:35px;
+    height: 35px;
+    border-radius: 20px;
+    margin-left: auto;
+}
+.person-image img{
+   display: block;
+}
+
+.drop-down-info{
+   text-align: left;
+}
+
+
+.person-info{
+   margin-left: -40px;
+   margin-top: 10px;
+   border: none;
+}
+
+/* Start content styling*/
+.content-container{
+   
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+    margin: 90px auto 0px 65px;
+
+}
+.wdgt-txt{
+    padding-bottom: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+}
+.wdgt-txt h1{
+    font-weight: 400;
+ 
+}
+.dd-info-case{
+    margin-left: auto;
+    margin-top: 10px;
+}
+.case-info{
+    width: 150px;
+    height: 30px;
+    border-radius: 4px;
+    
+}
+.case-info, .info-case{
+    font-size: medium;
+}
+.content-top{
+    background-color: white;
+    height: 250px;
+}
+
+.content-top h4{
+    padding: 20px;
+    font-weight: 300 !important;
+}
